@@ -1,0 +1,61 @@
+{
+  "nick": "scgovedits",
+  "accounts": [
+    {
+      "consumer_key": "",
+      "consumer_secret": "",
+      "access_token": "",
+      "access_token_secret": "",
+      "template": "{{page}} Wikipedia article edited anonymously by {{name}} {{&url}}",
+      "ranges": {
+	        "SC Legislative Services Agency": [
+	        	"74.254.72.224/27",
+	        	"74.254.75.0/24"
+	        ],
+			"SC Government": [
+				"167.7.0.0/16"
+			],
+			"DHEC": [
+				"199.164.176.0/23",
+				"199.164.178.0/24"
+			],
+			"Dept of Commerce": [
+				"198.202.230.0/24"
+			],
+			"Water Resources Commission": [
+				"192.202.229.0/24"
+			],
+			"Attorney General, Emergency Prep Div": [
+				"198.202.227.0/24"
+			],
+			"Dept of Natural Resources": [
+				"69.130.125.224/29"
+			],
+			"BCB, Division of Statistics": [
+				"216.207.19.0/29",
+				"198.202.228.0/24"
+			],
+			"DNR, Marine Resource Div": [
+				"199.245.225.0/24"
+			],
+			"Orangeburg-Calhoun Tech Col": [
+				"199.4.164.0/22"
+			],
+			"Central Carolina Tech Col": [
+				"199.74.8.0/21"
+			],
+			"Dept of Transportation": [
+				"206.74.144.0/24"
+			]
+      },
+      "whitelist": {
+        "English Wikipedia": {
+          "Sherrod Brown": true,
+          "Maria Cantwell": true,
+          "Ben Cardin": true,
+          "Tom Carper": true
+        }
+      }
+    }
+  ]
+}
